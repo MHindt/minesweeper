@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1670863805478" clover="3.2.0">
-  <project timestamp="1670863805478" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
-    <file name="math.ts" path="/Users/michellehindt/Documents/minesweeper/src/test/math.ts">
+<coverage generated="1670870965784" clover="3.2.0">
+  <project timestamp="1670870965784" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4" elements="29" coveredelements="29" complexity="0" loc="19" ncloc="19" packages="2" files="2" classes="2"/>
+    <package name="Types">
+      <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="fields.ts" path="/Users/michellehindt/Documents/minesweeper/Types/fields.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="20" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="5" type="cond" truecount="3" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="29" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.test">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-    </file>
+      <file name="math.ts" path="/Users/michellehindt/Documents/minesweeper/src/test/math.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
