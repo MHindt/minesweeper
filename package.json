@@ -9,7 +9,6 @@
     "watch": "webpack watch --mode=development",
     "test": "jest"
   },
-
   "author": "Michelle Hindt",
   "license": "MIT",
   "bugs": {
@@ -20,9 +19,11 @@
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.5",
     "@babel/plugin-syntax-jsx": "^7.18.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^29.2.4",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@typescript-eslint/eslint-plugin": "^5.45.1",
@@ -36,7 +37,10 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
     "prettier": "2.8.0",
+    "ts-jest": "^29.0.3",
     "typescript": "^4.8.4",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
